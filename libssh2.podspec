@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = "include/**/*.h"
   s.preserve_paths = "include", "include/libssh2", "lib"
 
-  s.library      = "ssh2"
+  s.libraries    = "ssh2", "z"
 
   s.xcconfig = {
     "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/libssh2/lib"'
