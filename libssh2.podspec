@@ -18,6 +18,4 @@ Pod::Spec.new do |s|
     "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/libssh2/lib"'
   }
 
-  s.dependency  "OpenSSL-Apple", '>=0'
-
 end
